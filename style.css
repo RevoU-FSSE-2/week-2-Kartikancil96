@@ -17,7 +17,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    height: 48px;
+    height: 54px;
     border-bottom: 2px solid #f18989;
   }
   
@@ -31,9 +31,9 @@ body {
   }
   
   nav > span > img {
-    height: 28px;
+    height: 32px;
     width: auto;
-    padding: 6px;
+    padding: 10px;
   }
   
   nav > span {
