@@ -84,8 +84,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25%;
+    width: 100%;
   }
+
+  #Maruko-photos .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   
   h2 {
     text-align: center;
@@ -128,7 +135,7 @@ body {
   }
   
   #form-section {
-    background-color: #b91549;
+    background-color: #f66767;
     color: white;
     padding: 8px;
     margin-top: 16px;
@@ -203,5 +210,6 @@ body {
       height: 100%;
       object-fit: cover;
     }
+   
   }
   
