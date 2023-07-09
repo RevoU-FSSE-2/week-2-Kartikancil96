@@ -1,18 +1,108 @@
-.mobile {
+/* for tablet and desktop */
+@media only screen and (min-width: 768px) {
+  #hobby-article>.flex-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #hobby-article>.flex-container figure {
+    margin-left: auto;
+  }
+
+  #hobby-article>.flex-container img {
+    height: 240px;
+    width: 300px;
+  }
+
+  #hobby-article>.flex-container figcaption {
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  #hobby-article>.flex-container.row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  #hobby-article>.flex-container.row-reverse p {
+    margin-left: 32px;
+  }
+
+  #hobby-article>.flex-container.row-reverse figure {
+    margin-left: 40px;
+    min-width: 320px;
+  }
+
+  #hobby-article .flex-container .ul {
+    gap: 10px;
+    text-align: justify;
+    margin: 0 0 24px;
+  }
+
+  #hobby-article .flex-container .ul li {
+    font-size: 6px;
+  }
+
+  iframe {
+    max-width: 480px;
+  }
+
+  #hobby-article .grid-container {
+    display: flex;
+    gap: 16px;
+  }
+
+  #hobby-article .grid-container>div {
+    width: 25%;
+  }
+
+  #hobby-article .grid-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  nav>ul>li {
     display: none;
   }
-  
-  .desktop {
+
+  .nav .mobile {
     display: block;
   }
-  
-  @media only screen and (max-width: 1023px) {
-    .mobile {
-      display: block;
-    }
-  
-    .desktop {
-      display: none;
-    }
+
+  #Maruko-photos .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
   }
-  
+
+
+}
+
+@media only screen and (min-width: 1023px) {
+  .mobile {
+    display: none;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+
+  }
+
+  nav>ul>li>a {
+    font-size: 18px;
+    color: #f66767;
+    gap: 10px;
+    margin: 20px;
+  }
+
+  #Maruko-photos .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
